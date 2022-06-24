@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-18T00:51:12 IST" name="Suite" finished-at="2022-06-18T00:52:01 IST" duration-ms="48689">
+    <groups>
+    </groups>
+    <test started-at="2022-06-18T00:51:12 IST" name="validatingLogo" finished-at="2022-06-18T00:51:29 IST" duration-ms="16972">
+      <class name="E2EProject.SDTEST.validatingLogo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:E2EProject.SDTEST.validatingLogo@5bfa8cc5]" started-at="2022-06-18T00:51:12 IST" name="setup" finished-at="2022-06-18T00:51:29 IST" duration-ms="16454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogo()[pri:0, instance:E2EProject.SDTEST.validatingLogo@5bfa8cc5]" started-at="2022-06-18T00:51:29 IST" name="validateLogo" finished-at="2022-06-18T00:51:29 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EProject.SDTEST.validatingLogo@5bfa8cc5]" started-at="2022-06-18T00:51:29 IST" name="teardown" finished-at="2022-06-18T00:51:29 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EProject.SDTEST.validatingLogo -->
+    </test> <!-- validatingLogo -->
+    <test started-at="2022-06-18T00:51:12 IST" name="NavigateBar" finished-at="2022-06-18T00:51:29 IST" duration-ms="17342">
+      <class name="E2EProject.SDTEST.NavigateBar">
+        <test-method is-config="true" signature="setup()[pri:0, instance:E2EProject.SDTEST.NavigateBar@4a3329b9]" started-at="2022-06-18T00:51:12 IST" name="setup" finished-at="2022-06-18T00:51:29 IST" duration-ms="16489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigationbar()[pri:0, instance:E2EProject.SDTEST.NavigateBar@4a3329b9]" started-at="2022-06-18T00:51:29 IST" name="navigationbar" finished-at="2022-06-18T00:51:29 IST" duration-ms="175" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at E2EProject.SDTEST.NavigateBar.navigationbar(NavigateBar.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationbar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EProject.SDTEST.NavigateBar@4a3329b9]" started-at="2022-06-18T00:51:29 IST" name="teardown" finished-at="2022-06-18T00:51:29 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EProject.SDTEST.NavigateBar -->
+    </test> <!-- NavigateBar -->
+    <test started-at="2022-06-18T00:51:12 IST" name="HomePageTest" finished-at="2022-06-18T00:52:01 IST" duration-ms="48689">
+      <class name="E2EProject.SDTEST.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:E2EProject.SDTEST.HomePageTest@22b53226]" started-at="2022-06-18T00:51:12 IST" name="setup" finished-at="2022-06-18T00:51:20 IST" duration-ms="7445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="basepageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:E2EProject.SDTEST.HomePageTest@22b53226]" started-at="2022-06-18T00:51:20 IST" name="basepageNavigation" data-provider="getData" finished-at="2022-06-18T00:51:42 IST" duration-ms="22215" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dubeysuraj38@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suraj@118]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InValid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div[title='All-Access Membership']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'SURAJ-DUBEY', ip: '192.168.0.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69ae3c642c0267a0d1bb9c9828bf9ef4, findElement {using=css selector, value=div[title='All-Access Membership']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\91704\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50508/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69ae3c642c0267a0d1bb9c9828bf9ef4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[title='All-Access Membership']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'SURAJ-DUBEY', ip: '192.168.0.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69ae3c642c0267a0d1bb9c9828bf9ef4, findElement {using=css selector, value=div[title='All-Access Membership']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\91704\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50508/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69ae3c642c0267a0d1bb9c9828bf9ef4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at pageObjects.UserPage.title(UserPage.java:30)
+at E2EProject.SDTEST.HomePageTest.basepageNavigation(HomePageTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method signature="basepageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:E2EProject.SDTEST.HomePageTest@22b53226]" started-at="2022-06-18T00:51:42 IST" name="basepageNavigation" data-provider="getData" finished-at="2022-06-18T00:52:01 IST" duration-ms="18436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dubeysuryaprakash1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suraj@811]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EProject.SDTEST.HomePageTest@22b53226]" started-at="2022-06-18T00:52:01 IST" name="teardown" finished-at="2022-06-18T00:52:01 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EProject.SDTEST.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
